@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới thiệu bản thân - Yến Như</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #ffe0ec, #e3f2fd);
+            color: #444;
+            line-height: 1.8;
+        }
+
+        header {
+            background: linear-gradient(135deg, #f48fb1, #ce93d8);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 18px;
+        }
+
+        nav {
+            background: white;
+            text-align: center;
+            padding: 15px;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #d66b9b;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #9c27b0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+
+        section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 18px;
+            box-shadow: 0 4px 12px #00000012;
+        }
+
+        h2 {
+            color: #d66b9b;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #f8bbd0;
+            padding-bottom: 8px;
+        }
+
+        .avatar {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .avatar img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #f8bbd0;
+        }
+
+        .hobby {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .hobby-item {
+            flex: 1;
+            min-width: 180px;
+            background: #fff0f5;
+            padding: 18px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .hobby-item span {
+            font-size: 35px;
+        }
+
+        footer {
+            background: #d98bb2;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Xin chào! Mình là Yến Như 💗</h1>
+        <p>Chào mừng bạn đến với trang web giới thiệu bản thân của mình!</p>
+    </header>
+
+    <nav>
+        <a href="#about">Giới thiệu</a>
+        <a href="#hobby">Sở thích</a>
+        <a href="#dream">Ước mơ</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="about">
+            <div class="avatar">
+                <!-- Thay dia-chi-anh.jpg bằng ảnh của bạn -->
+                <img src="dia-chi-anh.jpg"
+                     alt="Ảnh đại diện của Yến Như">
+            </div>
+
+            <h2>🌸 Giới thiệu về bản thân</h2>
+            <p>Xin chào mọi người!</p>
+            <p>
+                Mình tên là <b>Nguyễn Thị Yến Như</b>.
+                Mình sinh năm <b>2007</b> tại thủ đô Hà Nội
+                xinh đẹp.
+            </p>
+            <p>
+                Mình là một người yêu thích khám phá những điều
+                mới mẻ, thích tận hưởng cuộc sống và luôn mong
+                muốn học hỏi, phát triển bản thân mỗi ngày.
+            </p>
+        </section>
+
+        <section id="hobby">
+            <h2>💖 Sở thích của mình</h2>
+
+            <div class="hobby">
+                <div class="hobby-item">
+                    <span>🎣</span>
+                    <h3>Câu cá</h3>
+                    <p>
+                        Mình thích câu cá vì đây là hoạt động
+                        giúp thư giãn và hòa mình với thiên nhiên.
+                    </p>
+                </div>
+
+                <div class="hobby-item">
+                    <span>🎬</span>
+                    <h3>Xem phim Hàn Quốc</h3>
+                    <p>
+                        Mình yêu thích những bộ phim Hàn Quốc
+                        với nội dung hấp dẫn và cảm động.
+                    </p>
+                </div>
+
+                <div class="hobby-item">
+                    <span>🏊</span>
+                    <h3>Bơi lội</h3>
+                    <p>
+                        Bơi lội giúp mình rèn luyện sức khỏe,
+                        thư giãn và có thêm năng lượng.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="dream">
+            <h2>🌈 Ước mơ và mục tiêu</h2>
+            <p>
+                Mình mong muốn trong tương lai sẽ đạt được
+                nhiều thành công trong học tập và công việc.
+                Mình hy vọng có thể khám phá nhiều vùng đất
+                mới, gặp gỡ những người thú vị và luôn sống
+                vui vẻ, hạnh phúc.
+            </p>
+            <p>
+                <b>Phương châm sống:</b>
+                Hãy luôn tự tin, cố gắng và theo đuổi những
+                điều mình yêu thích!
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>💗 Cảm ơn bạn đã ghé thăm trang web của mình! 💗</p>
+        <p>© 2026 - Nguyễn Thị Yến Như</p>
+    </footer>
+
+</body>
+</html>
